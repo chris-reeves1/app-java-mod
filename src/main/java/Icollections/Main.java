@@ -169,11 +169,11 @@ public class Main {
             // }
 
             // Merge:
-            map.replace("e", 170);
-            System.out.println(map);
-            map.replaceAll((key, value) -> value + 10);
-            map.merge("c", 10, (oldValue, newValue) -> oldValue + newValue);
-            System.out.println(map);
+            // map.replace("e", 170);
+            // System.out.println(map);
+            // map.replaceAll((key, value) -> value + 10);
+            // map.merge("c", 10, (oldValue, newValue) -> oldValue + newValue);
+            // System.out.println(map);
 
 
     }
