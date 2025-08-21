@@ -1,7 +1,21 @@
 package Aintro;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import com.google.gson.Gson;
+
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
+        
+
         
         // int x = 10; // primitive type - directly stored in stack memory.
         // String name = "chris"; // Reference type - references an object.
@@ -58,17 +72,17 @@ public class Main {
 
         // parsing(String to primitive)
 
-        String intString = "123";
-        int number = Integer.parseInt(intString);
-        System.out.println(number);
+        // String intString = "123";
+        // int number = Integer.parseInt(intString);
+        // System.out.println(number);
 
-        String doubleString = "45.65";
-        double d = Double.parseDouble(doubleString);
-        System.out.println(d);
+        // String doubleString = "45.65";
+        // double d = Double.parseDouble(doubleString);
+        // System.out.println(d);
 
-        String booleanString = "true";
-        boolean b = Boolean.parseBoolean(booleanString);
-        System.out.println(b); 
+        // String booleanString = "true";
+        // boolean b = Boolean.parseBoolean(booleanString);
+        // System.out.println(b); 
     }
 }
 
