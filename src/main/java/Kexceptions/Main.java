@@ -6,11 +6,12 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Main {
- public static void main(String[] args) {
+ public static void main(String[] args) {}}
 
-        try {
-            level1();
-        } catch (ArithmeticException e){}
+
+        // try {
+        //     level1();
+        // } catch (Exception e){}
     // try (BufferedReader reader = new BufferedReader(new FileReader("example.txt"))){
     //     String line;
     //     while ((line = reader.readLine()) != null){
@@ -50,19 +51,17 @@ public class Main {
     // }
 
 
- }
+// public static void level1(){
+//     level2();
+// }
 
-public static void level1(){
-    level2();
-}
+// public static void level2(){
+//     level3();
+// }
 
-public static void level2(){
-    level3();
-}
-
-public static void level3(){
-    int result = 10/0;
-}
+// public static void level3(){
+//     int result = 10/0;
+// }
 
 
 
@@ -71,7 +70,7 @@ public static void level3(){
 //         throw new IllegalArgumentException("Age must be over 18");
 //     }
 //  }
-}
+
 
 
 
